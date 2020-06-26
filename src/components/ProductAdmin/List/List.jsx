@@ -1,8 +1,6 @@
 import React from 'react';
 import {Table} from 'react-bootstrap';
 import ButtonDelete from './ButtonDelete';
-import ButtonCreate from './ButtonCreate';
-
 
 const PageAdminList = ({listpage})=>{
 
@@ -12,7 +10,6 @@ const PageAdminList = ({listpage})=>{
         <td><ButtonDelete id={list._id}/></td>
         </tr>))
     return (<div className="pageadmin-list">
-        <ButtonCreate/>
         <Table striped bordered hover>
             <thead>
                 <tr>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button} from 'react-bootstrap';
 
-const ButtonCreate = ({id})=>{
+const ButtonDelete = ({id})=>{
     const onDelete = (e)=>{
         e.preventDefault();
         alert(id);
@@ -13,4 +13,4 @@ const ButtonCreate = ({id})=>{
     )
 }
 
-export default ButtonCreate;
+export default ButtonDelete;

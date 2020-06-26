@@ -1,18 +1,15 @@
 import React from 'react';
 import {Table} from 'react-bootstrap';
 import ButtonDelete from './ButtonDelete';
-import ButtonCreate from './ButtonCreate';
 
-
-const PageAdminList = ({listpage})=>{
+const ConteudoAdminList = ({listpage})=>{
 
     const pageList = listpage.map((list) =>(
         <tr>
         <td>{list.title}</td>
         <td><ButtonDelete id={list._id}/></td>
         </tr>))
-    return (<div className="pageadmin-list">
-        <ButtonCreate/>
+    return (<div className="categoryadmin-list">
         <Table striped bordered hover>
             <thead>
                 <tr>
@@ -27,4 +24,4 @@ const PageAdminList = ({listpage})=>{
     </div>)
 }
 
-export default PageAdminList;
+export default ConteudoAdminList;

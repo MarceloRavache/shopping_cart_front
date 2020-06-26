@@ -1,7 +1,7 @@
 import React from 'react';
 import {Form,Button} from 'react-bootstrap';
 
-const PageAdminCreate = ()=>(
+const PageAdminCreate = ({result})=>(
     <div className="pageadmin-create">
         <Form>
             <Form.Group controlId="formBasicEmail">

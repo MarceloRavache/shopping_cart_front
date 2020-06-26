@@ -1,8 +1,8 @@
 import React from 'react';
 import {Form,Button} from 'react-bootstrap';
 
-const PageAdminCreate = ()=>(
-    <div className="pageadmin-create">
+const CategoryAdminCreate = ({result})=>(
+    <div className="categoryadmin-create">
         <Form>
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Titulo</Form.Label>
@@ -14,7 +14,7 @@ const PageAdminCreate = ()=>(
             </Form.Group>
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Conteúdo</Form.Label>
-                <Form.Control type="text" placeholder="COnteúdo" />
+                <Form.Control type="text" placeholder="Conteúdo" />
             </Form.Group>
             <Button variant="primary" type="submit">
                 Submit
@@ -23,4 +23,4 @@ const PageAdminCreate = ()=>(
     </div>
 )
 
-export default PageAdminCreate;
+export default CategoryAdminCreate;

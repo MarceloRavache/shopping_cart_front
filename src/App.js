@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Routes from './routes';
+
 import PageAdminEdit from './components/PageAdmin/List/List';
 import NavabarMenu from './components/Navbar/NavbarMenu';
 
@@ -14,8 +16,7 @@ const App = ()=> {
 
   return (
     <div className="App">
-      <NavabarMenu/>
-      <PageAdminEdit listpage={result}/>
+      <Routes/>
     </div>
   );
 }
