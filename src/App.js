@@ -1,5 +1,4 @@
-import React,{useState} from 'react';
-import image from './wizard1.jpg';
+import React from 'react';
 
 import PageAdminEdit from './components/PageAdmin/List/List';
 import NavabarMenu from './components/Navbar/NavbarMenu';
